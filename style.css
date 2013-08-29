@@ -1,0 +1,66 @@
+
+/*#id {
+	color: #ff0000;
+	background: #0000ff;
+}
+
+.class {
+	font-size: 100px;
+}*/
+
+body {
+	margin: 30px;
+	background: #ECF0F1;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.brandcontain {
+	margin:75px auto;
+	text-align:left;
+	padding:15px;
+	text-align: center;
+}
+
+.brandcontain img {
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	border-radius: 95%;
+}
+
+/*.brandcontain img {
+	max-width: 100%;
+}*/
+
+.brandcontain img:hover {
+	opacity: .8;
+}
+
+.centerfy {
+	text-align: center;
+	opacity: .9;
+}
+
+.bigquote {
+	font-family: "Merriweather", serif;
+	font-style: italic;
+	font-weight: 200;
+	margin: 50px;
+	color: #fff;
+}
+
+.lilnote {
+	font-weight: 200;
+	margin: 50px;
+	color: #fff;
+}
+
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -100; /* Ensure div tag stays behind content; -999 might work, too. */
+    background: url(/images/blurred.jpg);
+    background-size: cover;
+}
